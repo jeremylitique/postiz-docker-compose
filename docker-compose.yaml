@@ -8,6 +8,7 @@ services:
       MAIN_URL: '${APP_URL}'
       FRONTEND_URL: '${APP_URL}'
       NEXT_PUBLIC_BACKEND_URL: '${APP_URL}/api'
+      NOT_SECURED: 'true'
       JWT_SECRET: '${JWT_SECRET}'
       DATABASE_URL: 'postgresql://${DB_USER}:${DB_PASSWORD}@postiz-postgres:5432/${DB_NAME}'
       REDIS_URL: 'redis://postiz-redis:6379'
